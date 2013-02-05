@@ -10,8 +10,8 @@
     "jade": "*",
     "tutor": "*",
     "glob": "*",
-    "mongoose": "*",
-    "mongodb": "*"
+    "mongodb": "*",
+    "underscore": "*"
   },
   "devDependencies": {
     "mocha": "*",

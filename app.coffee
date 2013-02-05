@@ -1,7 +1,8 @@
-express = require("express")
-routes = require("./app/routes")
-http = require("http")
-path = require("path")
+express = require 'express'
+routes = require './app/routes'
+http = require 'http'
+path = require 'path'
+db = require './lib/db'
 
 # Configure App
 app = express()
@@ -25,5 +26,7 @@ for route, fn of routes
   path = route.split(' ')[1]
   app[verb.toLowerCase()] path, fn
 
-http.createServer(app).listen app.get("port"), ->
-  console.log "Express server listening on port " + app.get("port")
+db.open (err) ->
+  throw err if err
+  http.createServer(app).listen app.get("port"), ->
+    console.log "Express server listening on port " + app.get("port")
