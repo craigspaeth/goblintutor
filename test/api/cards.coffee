@@ -17,7 +17,7 @@ describe 'api/cards', ->
     it 'fetches a card by id', ->
       routes['GET cards/:id'](
         { params: { id: '51166320ad2baad05c000001' } }
-        { send: (resSpy = sinon.spy()) }
+        { send: (res = sinon.spy()) }
       )
       @fetchStub.called.should.be.ok
-      resSpy.args[0][0].id.should.equal '51166320ad2baad05c000001' 
+      res.args[0][0].id.should.equal '51166320ad2baad05c000001' 
