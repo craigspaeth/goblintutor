@@ -3,6 +3,7 @@ routes = require './app/routes'
 http = require 'http'
 path = require 'path'
 db = require './lib/db'
+global.nap = require 'nap'
 
 # Configure App
 app = express()
@@ -19,6 +20,19 @@ app.configure ->
 
 app.configure "development", ->
   app.use express.errorHandler()
+
+# Configure nap
+nap
+  assets:
+    js:
+      vendor: [
+        '/app/client/vendor/jquery.js'
+        '/app/client/vendor/underscore.js'
+        '/app/client/vendor/backbone.js'
+      ]
+      all: ['/app/client/**/*.coffee']
+    css:
+      all: ['/app/stylesheets/**/*.styl']
 
 # Load routes
 for route, fn of routes

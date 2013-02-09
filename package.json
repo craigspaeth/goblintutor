@@ -11,7 +11,10 @@
     "tutor": "*",
     "glob": "*",
     "mongodb": "*",
-    "underscore": "*"
+    "underscore": "*",
+    "nap": "*",
+    "stylus": "*",
+    "nib": "*"
   },
   "devDependencies": {
     "mocha": "*",

@@ -14,3 +14,4 @@ module.exports = class Card extends Base
     toughness:    data.toughness
     image_url:    data.image_url
     gatherer_url: data.gatherer_url
+    expansion:    data.expansion

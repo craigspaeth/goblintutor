@@ -39,14 +39,14 @@ describe 'api/cards', ->
       @res.length.should.equal @cards.length
       @res[0].name.should.equal @cards[0].name
       
-  describe '/cards/match/:query', ->
+  describe '/match/cards', ->
     
     beforeEach ->
       @cards = cards = [fabricate.card(), fabricate.card()]
       @findStub = sinon.stub Card, 'find'
       @findStub.returns { limit: -> toArray: (cb) -> cb(null, cards) }
       routes['GET cards/match/:query'](
-        { params: query: 'foobar' }
+        { query: term: 'foobar' }
         { send: (@res) => }
       )
       
