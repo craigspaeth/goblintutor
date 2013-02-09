@@ -38,5 +38,5 @@ module.exports = class Base
   for method in ['find', 'findOne', 'update', 
                  'insert', 'findAndModify', 'drop', 'count']
     @[method] = _.partial ((method, args...) ->
-      db.collection(@::collection())[method] args...
+      @::collection()[method] args...
     ), method
