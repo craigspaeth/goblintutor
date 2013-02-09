@@ -6,3 +6,9 @@ Card = require "#{process.cwd()}/app/models/card"
   card.fetch (err) ->
     return res.send 404, "Can not find card by id #{req.params.id}" if err
     res.send card.toJSON()
+    
+@['GET cards'] = (req, res) ->
+  Card.find().limit(100).toArray (err, docs) ->
+    return res.send 500, err if err
+    res.send Card.docsToJSON(docs)
+    

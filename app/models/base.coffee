@@ -38,6 +38,10 @@ module.exports = class Base
   toJSON: ->
     _.extend @attrs, { id: @get('_id'), _id: undefined }
   
+  @docsToJSON: (docs) ->
+    models = (new @(doc) for doc in docs)
+    (model.toJSON() for model in models)
+  
   for method in ['find', 'findOne', 'update', 
                  'insert', 'findAndModify', 'drop', 'count']
     @[method] = _.partial ((method, args...) ->

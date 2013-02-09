@@ -1,12 +1,15 @@
 Base = require "#{process.cwd()}/app/models/base"
 collectionStub = require '../helpers/collection_stub'
 sinon = require 'sinon'
+_ = require 'underscore'
 
 describe 'Base', ->
   
   class NoCollection extends Base
   class Model extends Base
     collectionName: 'foo'
+    toJSON: ->
+      _.extend super, { footwo: @attrs.foo }
   
   beforeEach ->
     @model = new Model
@@ -83,3 +86,10 @@ describe 'Base', ->
     
     it 'aliases static methods', ->
       (Model.find?).should.be.ok
+      
+  describe '#docsToJSON', ->
+    
+    it 'converts vanilla objects to model JSON', ->
+      arr = Model.docsToJSON([{ foo: 'bar' }, { foo: 'baz' }])
+      arr[0].footwo.should.equal 'bar'
+      arr[1].footwo.should.equal 'baz'
