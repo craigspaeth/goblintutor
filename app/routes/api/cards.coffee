@@ -12,3 +12,8 @@ Card = require "#{process.cwd()}/app/models/card"
     return res.send 500, err if err
     res.send Card.docsToJSON(docs)
     
+@['GET cards/match/:query'] = (req, res) ->
+  Card.find({ name: { $regex: req.params.query } })
+    .limit(20).toArray (err, docs) ->
+      return res.send 500, err if err
+      res.send Card.docsToJSON(docs)

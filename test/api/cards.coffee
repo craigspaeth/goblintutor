@@ -26,7 +26,6 @@ describe 'api/cards', ->
   describe '/', ->
     
     beforeEach ->
-      @res = null
       @cards = cards = [fabricate.card(), fabricate.card()]
       @findStub = sinon.stub Card, 'find'
       @findStub.returns { limit: -> toArray: (cb) -> cb(null, cards) }
@@ -37,5 +36,24 @@ describe 'api/cards', ->
     
     it 'returns an array of cards', ->
       @findStub.called.should.be.ok
+      @res.length.should.equal @cards.length
+      @res[0].name.should.equal @cards[0].name
+      
+  describe '/cards/match/:query', ->
+    
+    beforeEach ->
+      @cards = cards = [fabricate.card(), fabricate.card()]
+      @findStub = sinon.stub Card, 'find'
+      @findStub.returns { limit: -> toArray: (cb) -> cb(null, cards) }
+      routes['GET cards/match/:query'](
+        { params: query: 'foobar' }
+        { send: (@res) => }
+      )
+      
+    afterEach ->
+      @findStub.restore()
+    
+    it 'regex queries mongo and returns an array of cards', ->
+      @findStub.args[0][0].name.$regex.should.equal 'foobar'
       @res.length.should.equal @cards.length
       @res[0].name.should.equal @cards[0].name
