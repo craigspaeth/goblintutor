@@ -1,4 +1,4 @@
-class window.AutocompleteView extends Backbone.View
+class @AutocompleteView extends Backbone.View
   
   defaults:
     field: 'name'

@@ -3,7 +3,7 @@
     __hasProp = {}.hasOwnProperty,
     __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };
 
-  window.AutocompleteView = (function(_super) {
+  this.AutocompleteView = (function(_super) {
 
     __extends(AutocompleteView, _super);
 
@@ -78,8 +78,7 @@
     AutocompleteView.prototype.select = function(e) {
       var index;
       index = $(e.target).index();
-      this.trigger('select', this.res[index]);
-      return console.log(this.res[index]);
+      return this.trigger('select', this.res[index]);
     };
 
     AutocompleteView.prototype.events = {
