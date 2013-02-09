@@ -71,7 +71,14 @@ describe 'Base', ->
       @model.destroy()
       @model.collection().remove.args[0][0]._id
         .toString().should.equal '51166320ad2baad05c000001'
-        
+  
+  describe '#toJSON', ->
+    
+    it 'converts _id to id', ->
+      @model.set _id: 'foo'
+      @model.toJSON().id.should.equal 'foo'
+      (@model.toJSON()._id?).should.not.be.ok
+  
   describe 'static methods', ->
     
     it 'aliases static methods', ->

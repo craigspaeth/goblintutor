@@ -35,6 +35,9 @@ module.exports = class Base
   destroy: (cb) ->
     @collection().remove { _id: @id() }, cb
   
+  toJSON: ->
+    _.extend @attrs, { id: @get('_id'), _id: undefined }
+  
   for method in ['find', 'findOne', 'update', 
                  'insert', 'findAndModify', 'drop', 'count']
     @[method] = _.partial ((method, args...) ->
