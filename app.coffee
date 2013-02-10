@@ -41,7 +41,7 @@ for route, fn of routes
   path = route.split(' ')[1]
   app[verb.toLowerCase()] path, fn
 
-app.listen app.get("port"), ->
-  console.log "Express server listening on port " + app.get("port")
 db.open (err) ->
-  console.warn "ERROR", err.toString() if err
+  app.listen app.get("port"), ->
+    console.log "Express server listening on port " + app.get("port")
+nap.package() if process.env.NODE_ENV is 'production'
