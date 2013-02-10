@@ -43,6 +43,8 @@ for route, fn of routes
   app[verb.toLowerCase()] path, fn
 
 db.open (err) ->
-  throw err if err
+  if err
+    console.warn "DB CONNECTION ERROR"
+    throw err
   http.createServer(app).listen app.get("port"), ->
     console.log "Express server listening on port " + app.get("port")
