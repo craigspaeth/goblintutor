@@ -4,15 +4,24 @@ _ = require 'underscore'
 @open = (callback, options) =>
   return callback? null, @client if @client  
   options = _.extend
-    host: '127.0.0.1'
-    port: 27017
-    db: 'test'
+    host: process.env.GT_MONGO_HOST or '127.0.0.1'
+    port: process.env.GT_MONGO_PORT or 27017
+    db: process.env.GT_MONGO_DB or 'test'
+    username: process.env.GT_MONGO_USERNAME or undefined
+    password: process.env.GT_MONGO_PASSWORD or undefined
   , options
   server = new Server options.host, options.port, {}
   client = new Db options.db, server, { w: 1 }
-  client.open (@err, @client) =>
-    callback? @err if @err
-    callback? null, @client if @client
+  open = =>
+    client.open (@err, @client) =>
+      callback? @err if @err
+      callback? null, @client if @client
+  if options.password
+    client.authenticate options.username, options.password, (err) ->
+    return throw(err) if err
+    open()
+  else
+   open()
     
 @close = =>
   ensureConnected()
@@ -23,4 +32,4 @@ _ = require 'underscore'
   new Collection @client, name
   
 ensureConnected = =>
-  throw @err || "No database client open." unless @client?
+  throw @err or "No database client open." unless @client?
