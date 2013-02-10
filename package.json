@@ -1,7 +1,7 @@
 {
   "name": "goblintutor",
   "subdomain": "goblintutor",
-  "version": "0.0.1-2",
+  "version": "0.0.1-3",
   "private": true,
   "engines": {
     "node": "0.8.x",

@@ -43,5 +43,5 @@ for route, fn of routes
 
 app.listen app.get("port"), ->
   console.log "Express server listening on port " + app.get("port")
-db.open (err) ->
-  console.warn "ERROR", err.toString() if err
+# db.open (err) ->
+#   console.warn "ERROR", err.toString() if err
