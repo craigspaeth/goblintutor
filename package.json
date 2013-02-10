@@ -1,14 +1,14 @@
 {
   "name": "goblintutor",
   "subdomain": "goblintutor",
-  "version": "0.0.1-6",
+  "version": "0.0.1-7",
   "private": true,
   "engines": {
     "node": "0.8.x",
     "npm": "1.1.x"
   },
   "scripts": {
-    "start": "node app"
+    "start": "coffee app.coffee"
   },
   "dependencies": {
     "express": "3.1.0",
@@ -26,8 +26,5 @@
     "should": "*",
     "sinon": "*",
     "jsdom": "*"
-  },
-  "scripts": {
-    "start": "coffee app.coffee"
   }
 }
