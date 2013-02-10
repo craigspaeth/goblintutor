@@ -14,8 +14,15 @@ _ = require 'underscore'
   client = new Db options.db, server, { w: 1 }
   open = =>
     client.open (@err, @client) =>
-      callback? @err if @err
-      callback? null, @client if @client
+      if options.username and options.password
+        client.authenticate options.username, options.password, (@err, @client) =>
+          console.log 'AUTH', arguments
+          callback? @err if @err
+          callback? null, @client if @client
+      else
+        console.log 'NO AUTH', arguments
+        callback? @err if @err
+        callback? null, @client if @client
   if options.password
     client.authenticate options.username, options.password, (err) ->
     return throw(err) if err
