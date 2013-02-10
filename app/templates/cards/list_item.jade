@@ -6,7 +6,11 @@ li
       .name= item.name
       .mana-cost= item.mana_cost
     .mid
-      .type= item.type
+      .type
+        = item.types.join(' ')
+        if item.subtypes && item.subtypes.length
+          |  - 
+          = item.subtypes.join(' ')
       .expansion= item.expansion
     .text= item.text
     if item.power || item.toughness

@@ -7,8 +7,8 @@ module.exports = class Card extends Base
   @gathererToSchema: (data) ->
     name:         data.name
     mana_cost:    data.mana_cost
-    type:         (data.types?.join(', ') or '') + ' - ' + 
-                  (data.subtypes?.join(', ') or '')
+    types:        data.types
+    subtypes:     data.subtypes
     text:         data.text
     power:        data.power
     toughness:    data.toughness
