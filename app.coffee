@@ -1,11 +1,11 @@
 http = require("http")
+console.log process.env.NODE_ENV
+port = if process.env.NODE_ENV is 'production' then 80 else 4000
 http.createServer((req, res) ->
-  res.writeHead 200,
-    "Content-Type": "text/plain"
-
+  res.writeHead 200, "Content-Type": "text/plain"
   res.end "Hello World\n"
-).listen process.env.PORT or 3000, "127.0.0.1"
-console.log "Server running at http://127.0.0.1:1337/"
+).listen port, "127.0.0.1"
+console.log "Server running at http://127.0.0.1:#{port}/"
 
 return
 
