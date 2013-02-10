@@ -1,3 +1,14 @@
+http = require("http")
+http.createServer((req, res) ->
+  res.writeHead 200,
+    "Content-Type": "text/plain"
+
+  res.end "Hello World\n"
+).listen process.env.PORT or 3000, "127.0.0.1"
+console.log "Server running at http://127.0.0.1:1337/"
+
+return
+
 express = require 'express'
 routes = require './app/routes'
 path = require 'path'
@@ -43,5 +54,5 @@ for route, fn of routes
 
 app.listen app.get("port"), ->
   console.log "Express server listening on port " + app.get("port")
-# db.open (err) ->
-#   console.warn "ERROR", err.toString() if err
+db.open (err) ->
+  console.warn "ERROR", err.toString() if err
