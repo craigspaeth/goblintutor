@@ -2,5 +2,12 @@ li
   .img_container
     img( src=item.image_url )
   .details
-    h2.name= item.name
-    p.text= item.text
+    h2
+      .name= item.name
+      .mana-cost= item.mana_cost
+    .mid
+      .type= item.type
+      .expansion= item.expansion
+    .text= item.text
+    if item.power || item.toughness
+      .pt= item.power + '/' + item.toughness

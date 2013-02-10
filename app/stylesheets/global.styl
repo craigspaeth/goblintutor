@@ -19,15 +19,17 @@ h1
   font-size 20px
 
 input
-  border 2px solid
+  border 3px solid
   padding 10px
   width 100%
   font-size 16px
+  outline none
   
 .ac_results li
   height 260px
-  margin 20px 0
+  margin 60px 0
   text-align left
+  position relative
   clearfix()
   .img_container
     float left
@@ -41,5 +43,25 @@ input
   h2
     font-weight bold
     margin-bottom 10px
-  p
+    clearfix()
+    .name
+      float left
+    .mana-cost
+      float right
+  .text
     font-size 14px
+  .mid
+    margin 10px 0
+    clearfix()  
+  .type, .expansion
+    color #777
+    font-size 12px
+  .type
+    float left
+  .expansion
+    float right
+  .pt
+    position absolute
+    bottom 0
+    right 0
+    font-weight bold

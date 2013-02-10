@@ -103,15 +103,17 @@ h1 {
   font-size: 20px;
 }
 input {
-  border: 2px solid;
+  border: 3px solid;
   padding: 10px;
   width: 100%;
   font-size: 16px;
+  outline: none;
 }
 .ac_results li {
   height: 260px;
-  margin: 20px 0;
+  margin: 60px 0;
   text-align: left;
+  position: relative;
   zoom: 1;
 }
 .ac_results li:before,
@@ -137,7 +139,51 @@ input {
 .ac_results li h2 {
   font-weight: bold;
   margin-bottom: 10px;
+  zoom: 1;
 }
-.ac_results li p {
+.ac_results li h2:before,
+.ac_results li h2:after {
+  content: "";
+  display: table;
+}
+.ac_results li h2:after {
+  clear: both;
+}
+.ac_results li h2 .name {
+  float: left;
+}
+.ac_results li h2 .mana-cost {
+  float: right;
+}
+.ac_results li .text {
   font-size: 14px;
+}
+.ac_results li .mid {
+  margin: 10px 0;
+  zoom: 1;
+}
+.ac_results li .mid:before,
+.ac_results li .mid:after {
+  content: "";
+  display: table;
+}
+.ac_results li .mid:after {
+  clear: both;
+}
+.ac_results li .type,
+.ac_results li .expansion {
+  color: #777;
+  font-size: 12px;
+}
+.ac_results li .type {
+  float: left;
+}
+.ac_results li .expansion {
+  float: right;
+}
+.ac_results li .pt {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-weight: bold;
 }

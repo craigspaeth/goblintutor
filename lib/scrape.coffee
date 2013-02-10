@@ -1,5 +1,4 @@
 tutor = require 'tutor'
-db = require './db'
 Card = require '../app/models/card'
 
 # Fetches all of the cards in a set and calls a callback with the
@@ -14,6 +13,7 @@ Card = require '../app/models/card'
   fetch = ->
     page++
     tutor.set { name: setName, page: page }, (err, set) ->
+      console.log "Fetching #{setName} page #{page}..."
       callback?(err) if err and not err.toString().match(/page not found/)
       if set?.cards
         cards = cards.concat set.cards
@@ -28,11 +28,9 @@ Card = require '../app/models/card'
 # @param {Function} callback
 
 @scrapeSet = (setName, callback) =>
-  db.open =>
-    @fetchSet setName, (err, cards) ->
+  @fetchSet setName, (err, cards) ->
+    return callback(err) if err
+    docs = (Card.gathererToSchema(card) for card in cards)
+    Card.insert docs, {}, (err, docs) ->
       return callback(err) if err
-      docs = (Card.gathererToSchema(card) for card in cards)
-      Card.insert docs, {}, (err, docs) ->
-        return callback(err) if err
-        callback null, docs
-        db.close()
+      callback null, docs

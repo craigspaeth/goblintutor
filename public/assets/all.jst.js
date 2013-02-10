@@ -23,21 +23,72 @@ __jade.shift();
 __jade.unshift({ lineno: 4, filename: __jade[0].filename });
 buf.push('<div class="details">');
 __jade.unshift({ lineno: undefined, filename: __jade[0].filename });
-__jade.unshift({ lineno: 5, filename: __jade[0].filename });
-buf.push('<h2 class="name">');
+__jade.unshift({ lineno: 6, filename: __jade[0].filename });
+buf.push('<h2>');
+__jade.unshift({ lineno: undefined, filename: __jade[0].filename });
+__jade.unshift({ lineno: 6, filename: __jade[0].filename });
+buf.push('<div class="name">');
 var __val__ = item.name
 buf.push(escape(null == __val__ ? "" : __val__));
 __jade.unshift({ lineno: undefined, filename: __jade[0].filename });
 __jade.shift();
+buf.push('</div>');
+__jade.shift();
+__jade.unshift({ lineno: 7, filename: __jade[0].filename });
+buf.push('<div class="mana-cost">');
+var __val__ = item.mana_cost
+buf.push(escape(null == __val__ ? "" : __val__));
+__jade.unshift({ lineno: undefined, filename: __jade[0].filename });
+__jade.shift();
+buf.push('</div>');
+__jade.shift();
+__jade.shift();
 buf.push('</h2>');
 __jade.shift();
-__jade.unshift({ lineno: 6, filename: __jade[0].filename });
-buf.push('<p class="text">');
+__jade.unshift({ lineno: 8, filename: __jade[0].filename });
+buf.push('<div class="mid">');
+__jade.unshift({ lineno: undefined, filename: __jade[0].filename });
+__jade.unshift({ lineno: 9, filename: __jade[0].filename });
+buf.push('<div class="type">');
+var __val__ = item.type
+buf.push(escape(null == __val__ ? "" : __val__));
+__jade.unshift({ lineno: undefined, filename: __jade[0].filename });
+__jade.shift();
+buf.push('</div>');
+__jade.shift();
+__jade.unshift({ lineno: 10, filename: __jade[0].filename });
+buf.push('<div class="expansion">');
+var __val__ = item.expansion
+buf.push(escape(null == __val__ ? "" : __val__));
+__jade.unshift({ lineno: undefined, filename: __jade[0].filename });
+__jade.shift();
+buf.push('</div>');
+__jade.shift();
+__jade.shift();
+buf.push('</div>');
+__jade.shift();
+__jade.unshift({ lineno: 11, filename: __jade[0].filename });
+buf.push('<div class="text">');
 var __val__ = item.text
 buf.push(escape(null == __val__ ? "" : __val__));
 __jade.unshift({ lineno: undefined, filename: __jade[0].filename });
 __jade.shift();
-buf.push('</p>');
+buf.push('</div>');
+__jade.shift();
+__jade.unshift({ lineno: 12, filename: __jade[0].filename });
+if ( item.power || item.toughness)
+{
+__jade.unshift({ lineno: 13, filename: __jade[0].filename });
+__jade.unshift({ lineno: 13, filename: __jade[0].filename });
+buf.push('<div class="pt">');
+var __val__ = item.power + '/' + item.toughness
+buf.push(escape(null == __val__ ? "" : __val__));
+__jade.unshift({ lineno: undefined, filename: __jade[0].filename });
+__jade.shift();
+buf.push('</div>');
+__jade.shift();
+__jade.shift();
+}
 __jade.shift();
 __jade.shift();
 buf.push('</div>');
