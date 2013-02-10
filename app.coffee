@@ -1,6 +1,5 @@
 express = require 'express'
 routes = require './app/routes'
-http = require 'http'
 path = require 'path'
 db = require './lib/db'
 global.nap = require 'nap'
@@ -42,9 +41,7 @@ for route, fn of routes
   path = route.split(' ')[1]
   app[verb.toLowerCase()] path, fn
 
+app.listen app.get("port"), ->
+  console.log "Express server listening on port " + app.get("port")
 db.open (err) ->
-  if err
-    console.warn "DB CONNECTION ERROR"
-    throw err
-  http.createServer(app).listen app.get("port"), ->
-    console.log "Express server listening on port " + app.get("port")
+  console.warn "ERROR", err.toString() if err
