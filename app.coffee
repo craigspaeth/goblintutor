@@ -44,4 +44,4 @@ for route, fn of routes
 db.open (err) ->
   app.listen app.get("port"), ->
     console.log "Express server listening on port " + app.get("port")
-nap.package() if process.env.NODE_ENV is 'production'
+# nap.package() if process.env.NODE_ENV is 'production'
