@@ -9,11 +9,11 @@ class window.AutocompleteView extends Backbone.View
     @search = _.debounce @search, @options.delay
     @$results = @$el.after("<div class='ac_results'></div>").next('.ac_results')
 
-  renderLi: (obj) ->
-    "<li>#{obj[@options.field]}</li>"
+  renderLi: (item) ->
+    "<li>#{item[@options.field]}</li>"
   
   renderResults: (arr) ->
-    "<ul>#{(@renderLi(obj) for obj in arr).join('')}</ul>"
+    "<ul>#{(@renderLi(item) for item in arr).join('')}</ul>"
   
   search: =>
     $.ajax(

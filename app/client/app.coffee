@@ -1,5 +1,7 @@
 $ ->
   Backbone.history.start pushState: true
-  new AutocompleteView
+  autocomplete = new AutocompleteView
     el: $('input')
     url: '/api/match/cards'
+  autocomplete.renderLi = (item) -> JST['cards/list_item'] item: item
+  $('input').val('Acid').focus().keyup()

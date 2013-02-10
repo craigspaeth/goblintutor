@@ -33,7 +33,9 @@ nap
       all: ['/app/client/**/*.coffee']
     css:
       all: ['/app/stylesheets/**/*.styl']
-
+    jst:
+      all: ['/app/templates/cards/**/*.jade']
+    
 # Load routes
 for route, fn of routes
   verb = route.split(' ')[0]

@@ -2,8 +2,44 @@
 // Global styles
 // 
 
+@import nib
+global-reset()
+
 body
   font-family Helvetica
+  font-size 16px
+  width 500px
+  margin auto
+  text-align center
+  line-height 1.4em
+
+h1
+  margin 20px
+  font-weight bold
+  font-size 20px
+
+input
+  border 2px solid
+  padding 10px
+  width 100%
+  font-size 16px
   
-.ac_over
-  color blue
+.ac_results li
+  height 260px
+  margin 20px 0
+  text-align left
+  clearfix()
+  .img_container
+    float left
+    img
+      max-height 100%
+      max-width @max-height
+  .details
+    width 290px
+    float left
+    margin-left 20px
+  h2
+    font-weight bold
+    margin-bottom 10px
+  p
+    font-size 14px

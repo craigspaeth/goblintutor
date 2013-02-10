@@ -3,7 +3,7 @@
     __hasProp = {}.hasOwnProperty,
     __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };
 
-  this.AutocompleteView = (function(_super) {
+  window.AutocompleteView = (function(_super) {
 
     __extends(AutocompleteView, _super);
 
@@ -27,18 +27,18 @@
       return this.$results = this.$el.after("<div class='ac_results'></div>").next('.ac_results');
     };
 
-    AutocompleteView.prototype.renderLi = function(obj) {
-      return "<li>" + obj[this.options.field] + "</li>";
+    AutocompleteView.prototype.renderLi = function(item) {
+      return "<li>" + item[this.options.field] + "</li>";
     };
 
     AutocompleteView.prototype.renderResults = function(arr) {
-      var obj;
+      var item;
       return "<ul>" + (((function() {
         var _i, _len, _results;
         _results = [];
         for (_i = 0, _len = arr.length; _i < _len; _i++) {
-          obj = arr[_i];
-          _results.push(this.renderLi(obj));
+          item = arr[_i];
+          _results.push(this.renderLi(item));
         }
         return _results;
       }).call(this)).join('')) + "</ul>";
