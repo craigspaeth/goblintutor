@@ -1,4 +1,4 @@
-{ Db, Server, Collection, MongoClient } = mongodb = require 'mongodb'
+{ Collection, MongoClient } = mongodb = require 'mongodb'
 _ = require 'underscore'
 
 @open = (callback) =>
