@@ -1,5 +1,12 @@
-extends layout
-
-block content
-  h1 Search for a Magic The Gathering card
-  input
+doctype 5
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    != nap.css('all')
+  body
+    #frames
+    #scripts
+      != nap.js('vendor')
+      != nap.js('all')
+      != nap.jst('all')
