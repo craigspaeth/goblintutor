@@ -833,10 +833,11 @@
         <icon>GtCircledIcon%7Clarge</icon>
       </controlProperties>
     </control>
-    <control controlID="106" controlTypeID="com.balsamiq.mockups::Button" x="192" y="28" w="123" h="40" measuredW="107" measuredH="28" zOrder="52" locked="false" isInGroup="-1">
+    <control controlID="106" controlTypeID="com.balsamiq.mockups::Button" x="192" y="28" w="123" h="40" measuredW="55" measuredH="28" zOrder="52" locked="false" isInGroup="-1">
       <controlProperties>
+        <color>13576743</color>
         <size>11</size>
-        <text>SAVE%20%26%20FINISH</text>
+        <text>SAVE</text>
       </controlProperties>
     </control>
     <control controlID="108" controlTypeID="com.balsamiq.mockups::Label" x="24" y="825" w="-1" h="-1" measuredW="95" measuredH="22" zOrder="53" locked="false" isInGroup="-1">

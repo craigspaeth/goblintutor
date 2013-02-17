@@ -930,9 +930,9 @@
       </groupChildrenDescriptors>
     </control>
     <control controlID="68" controlTypeID="com.balsamiq.mockups::ModalScreen" x="18" y="13" w="1315" h="842" measuredW="320" measuredH="240" zOrder="1" locked="false" isInGroup="-1"/>
-    <control controlID="76" controlTypeID="__group__" x="88" y="137" w="292" h="258" measuredW="292" measuredH="258" zOrder="2" locked="false" isInGroup="-1">
+    <control controlID="76" controlTypeID="__group__" x="88" y="137" w="292" h="297" measuredW="292" measuredH="297" zOrder="2" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
-        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="292" h="258" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="76"/>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="292" h="297" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="76"/>
         <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="16" y="15" w="-1" h="-1" measuredW="261" measuredH="29" zOrder="1" locked="false" isInGroup="76">
           <controlProperties>
             <bold>true</bold>
@@ -940,59 +940,73 @@
             <text>SIGN%20UP%20TO%20SAVE%20DECKS</text>
           </controlProperties>
         </control>
-        <control controlID="2" controlTypeID="com.balsamiq.mockups::Button" x="16" y="53" w="260" h="44" measuredW="138" measuredH="28" zOrder="2" locked="false" isInGroup="76">
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Button" x="14" y="92" w="261" h="44" measuredW="138" measuredH="28" zOrder="2" locked="false" isInGroup="76">
           <controlProperties>
             <text>WITH%20FACEBOOK</text>
           </controlProperties>
         </control>
-        <control controlID="3" controlTypeID="com.balsamiq.mockups::Button" x="16" y="100" w="260" h="44" measuredW="124" measuredH="28" zOrder="3" locked="false" isInGroup="76">
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Button" x="14" y="139" w="261" h="44" measuredW="124" measuredH="28" zOrder="3" locked="false" isInGroup="76">
           <controlProperties>
             <text>WITH%20TWITTER</text>
           </controlProperties>
         </control>
-        <control controlID="4" controlTypeID="com.balsamiq.mockups::Button" x="16" y="148" w="260" h="44" measuredW="122" measuredH="28" zOrder="4" locked="false" isInGroup="76">
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Button" x="14" y="187" w="261" h="44" measuredW="122" measuredH="28" zOrder="4" locked="false" isInGroup="76">
           <controlProperties>
             <text>WITH%20GOOGLE</text>
           </controlProperties>
         </control>
-        <control controlID="5" controlTypeID="com.balsamiq.mockups::Button" x="16" y="199" w="260" h="44" measuredW="145" measuredH="28" zOrder="5" locked="false" isInGroup="76">
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Button" x="14" y="238" w="261" h="44" measuredW="145" measuredH="28" zOrder="5" locked="false" isInGroup="76">
           <controlProperties>
             <text>WITH%20YOUR%20EMAIL</text>
           </controlProperties>
         </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="32" y="52" w="-1" h="-1" measuredW="217" measuredH="24" zOrder="6" locked="false" isInGroup="76">
+          <controlProperties>
+            <color>13576743</color>
+            <size>16</size>
+            <text>Promise%20it%27ll%20only%20take%20a%20min%21</text>
+          </controlProperties>
+        </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="77" controlTypeID="__group__" x="402" y="137" w="292" h="258" measuredW="292" measuredH="258" zOrder="3" locked="false" isInGroup="-1">
+    <control controlID="77" controlTypeID="__group__" x="395" y="138" w="292" h="294" measuredW="292" measuredH="294" zOrder="3" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
-        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="292" h="258" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="77"/>
-        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="16" y="15" w="-1" h="-1" measuredW="261" measuredH="29" zOrder="1" locked="false" isInGroup="77">
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="292" h="294" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="77"/>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::TextInput" x="16" y="89" w="261" h="-1" measuredW="134" measuredH="31" zOrder="1" locked="false" isInGroup="77">
+          <controlProperties>
+            <size>18</size>
+            <text>Email%20address</text>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::TextInput" x="16" y="124" w="261" h="-1" measuredW="98" measuredH="31" zOrder="2" locked="false" isInGroup="77">
+          <controlProperties>
+            <size>18</size>
+            <text>Password</text>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::TextInput" x="16" y="160" w="261" h="-1" measuredW="166" measuredH="31" zOrder="3" locked="false" isInGroup="77">
+          <controlProperties>
+            <size>18</size>
+            <text>Repeat%20password</text>
+          </controlProperties>
+        </control>
+        <control controlID="9" controlTypeID="com.balsamiq.mockups::Button" x="17" y="198" w="260" h="81" measuredW="79" measuredH="28" zOrder="4" locked="false" isInGroup="77">
+          <controlProperties>
+            <text>SIGN%20UP</text>
+          </controlProperties>
+        </control>
+        <control controlID="13" controlTypeID="com.balsamiq.mockups::Label" x="16" y="15" w="-1" h="-1" measuredW="261" measuredH="29" zOrder="5" locked="false" isInGroup="77">
           <controlProperties>
             <bold>true</bold>
             <size>20</size>
             <text>SIGN%20UP%20TO%20SAVE%20DECKS</text>
           </controlProperties>
         </control>
-        <control controlID="6" controlTypeID="com.balsamiq.mockups::TextInput" x="16" y="54" w="253" h="-1" measuredW="134" measuredH="31" zOrder="2" locked="false" isInGroup="77">
+        <control controlID="14" controlTypeID="com.balsamiq.mockups::Label" x="32" y="52" w="-1" h="-1" measuredW="217" measuredH="24" zOrder="6" locked="false" isInGroup="77">
           <controlProperties>
-            <size>18</size>
-            <text>Email%20address</text>
-          </controlProperties>
-        </control>
-        <control controlID="7" controlTypeID="com.balsamiq.mockups::TextInput" x="16" y="89" w="253" h="-1" measuredW="98" measuredH="31" zOrder="3" locked="false" isInGroup="77">
-          <controlProperties>
-            <size>18</size>
-            <text>Password</text>
-          </controlProperties>
-        </control>
-        <control controlID="8" controlTypeID="com.balsamiq.mockups::TextInput" x="16" y="125" w="253" h="-1" measuredW="166" measuredH="31" zOrder="4" locked="false" isInGroup="77">
-          <controlProperties>
-            <size>18</size>
-            <text>Repeat%20password</text>
-          </controlProperties>
-        </control>
-        <control controlID="9" controlTypeID="com.balsamiq.mockups::Button" x="17" y="165" w="252" h="72" measuredW="79" measuredH="28" zOrder="5" locked="false" isInGroup="77">
-          <controlProperties>
-            <text>SIGN%20UP</text>
+            <color>13576743</color>
+            <size>16</size>
+            <text>Promise%20it%27ll%20only%20take%20a%20min%21</text>
           </controlProperties>
         </control>
       </groupChildrenDescriptors>

@@ -1,4 +1,4 @@
-<mockup version="1.0" skin="sketch" measuredW="931" measuredH="633" mockupW="904" mockupH="607">
+<mockup version="1.0" skin="sketch" measuredW="931" measuredH="919" mockupW="904" mockupH="893">
   <controls>
     <control controlID="126" controlTypeID="com.balsamiq.mockups::Label" x="36" y="34" w="193" h="22" measuredW="190" measuredH="27" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
@@ -554,6 +554,11 @@
       </groupChildrenDescriptors>
     </control>
     <control controlID="150" controlTypeID="com.balsamiq.mockups::Button" x="797" y="26" w="127" h="38" measuredW="111" measuredH="28" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Add%20new%20deck</text>
+      </controlProperties>
+    </control>
+    <control controlID="151" controlTypeID="com.balsamiq.mockups::Button" x="27" y="681" w="241" h="238" measuredW="111" measuredH="28" zOrder="8" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Add%20new%20deck</text>
       </controlProperties>
