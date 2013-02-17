@@ -17,7 +17,9 @@
     * Casting Cost 
 
 ## Solitaire
-* Pick a deck
+* List of decks
+  * Pick a deck to solitaire
+* Closer to how MTG players actually play MTG rather than MTG online format
 
 ## Play against another player (v1.x)
 * Chat
