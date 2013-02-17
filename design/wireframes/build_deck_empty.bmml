@@ -1,0 +1,454 @@
+<mockup version="1.0" skin="sketch" measuredW="1332" measuredH="648" mockupW="1308" mockupH="620">
+  <controls>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::VRule" x="326" y="31" w="-1" h="617" measuredW="5" measuredH="100" zOrder="0" locked="false" isInGroup="-1"/>
+    <control controlID="16" controlTypeID="__group__" x="367" y="141" w="375" h="217" measuredW="375" measuredH="217" zOrder="1" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="0" y="0" w="131" h="182" measuredW="77" measuredH="79" zOrder="0" locked="false" isInGroup="16">
+          <controlProperties>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="146" y="0" w="139" h="21" measuredW="135" measuredH="21" zOrder="1" locked="false" isInGroup="16">
+          <controlProperties>
+            <text>Fieldmist%20Borderpost</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="146" y="55" w="218" h="107" measuredW="1089" measuredH="18" zOrder="2" locked="false" isInGroup="16">
+          <controlProperties>
+            <size>11</size>
+            <text>You%20may%20pay%20%7B1%7D%20and%20return%20a%20basic%20land%20you%20control%20to%20its%20owner%27s%20hand%20rather%20than%20pay%20Fieldmist%20Borderpost%27s%20mana%20cost.%20Fieldmist%20Borderpost%20enters%20the%20battlefield%20tapped.%20%7BT%7D%3A%20Add%20%7BW%7D%20or%20%7BU%7D%20to%20your%20mana%20pool.</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Canvas" x="310" y="2" w="16" h="15" measuredW="100" measuredH="70" zOrder="3" locked="false" isInGroup="16">
+          <controlProperties>
+            <borderColor>10066329</borderColor>
+            <borderStyle>roundedSolid</borderStyle>
+            <color>10066329</color>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="312" y="1" w="12" h="17" measuredW="11" measuredH="18" zOrder="4" locked="false" isInGroup="16">
+          <controlProperties>
+            <color>16777215</color>
+            <size>11</size>
+            <text>1</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Canvas" x="328" y="2" w="16" h="15" measuredW="100" measuredH="70" zOrder="5" locked="false" isInGroup="16">
+          <controlProperties>
+            <borderColor>16770457</borderColor>
+            <borderStyle>roundedSolid</borderStyle>
+            <color>16770457</color>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Canvas" x="348" y="2" w="16" h="15" measuredW="100" measuredH="70" zOrder="6" locked="false" isInGroup="16">
+          <controlProperties>
+            <borderColor>2848996</borderColor>
+            <borderStyle>roundedSolid</borderStyle>
+            <color>2848996</color>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="146" y="29" w="57" h="21" measuredW="44" measuredH="18" zOrder="7" locked="false" isInGroup="16">
+          <controlProperties>
+            <color>6710886</color>
+            <size>11</size>
+            <text>Artifact</text>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Label" x="296" y="29" w="79" h="21" measuredW="73" measuredH="18" zOrder="8" locked="false" isInGroup="16">
+          <controlProperties>
+            <color>6710886</color>
+            <size>11</size>
+            <text>Alara%20Reborn</text>
+          </controlProperties>
+        </control>
+        <control controlID="9" controlTypeID="com.balsamiq.mockups::Button" x="0" y="189" w="131" h="28" measuredW="98" measuredH="28" zOrder="9" locked="false" isInGroup="16">
+          <controlProperties>
+            <color>16777215</color>
+            <text>Add%20to%20deck</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="21" controlTypeID="com.balsamiq.mockups::Canvas" x="326" y="29" w="959" h="55" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::TextInput" x="336" y="43" w="248" h="-1" measuredW="183" measuredH="26" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Search%20by%20title%20or%20body%20text</text>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::IconLabel" x="605" y="45" w="-1" h="-1" measuredW="84" measuredH="21" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>DownTriangleIcon%7Cxsmall</icon>
+        <labelPosition>left</labelPosition>
+        <text>%281%29%20Sets%20%20%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::IconLabel" x="728" y="45" w="-1" h="-1" measuredW="85" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>DownTriangleIcon%7Cxsmall</icon>
+        <labelPosition>left</labelPosition>
+        <text>%281%29%20Type%20%20%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::Canvas" x="839" y="47" w="16" h="15" measuredW="100" measuredH="70" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.25</backgroundAlpha>
+        <borderColor>16770457</borderColor>
+        <borderStyle>roundedSolid</borderStyle>
+        <color>16770457</color>
+      </controlProperties>
+    </control>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::Canvas" x="859" y="47" w="16" h="15" measuredW="100" measuredH="70" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.25</backgroundAlpha>
+        <borderColor>2848996</borderColor>
+        <borderStyle>roundedSolid</borderStyle>
+        <color>2848996</color>
+      </controlProperties>
+    </control>
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::Canvas" x="882" y="47" w="16" h="15" measuredW="100" measuredH="70" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.25</backgroundAlpha>
+        <borderColor>40463</borderColor>
+        <borderStyle>roundedSolid</borderStyle>
+        <color>40463</color>
+      </controlProperties>
+    </control>
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::Canvas" x="905" y="47" w="16" h="15" measuredW="100" measuredH="70" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.25</backgroundAlpha>
+        <borderColor>13576743</borderColor>
+        <borderStyle>roundedSolid</borderStyle>
+        <color>13576743</color>
+      </controlProperties>
+    </control>
+    <control controlID="50" controlTypeID="com.balsamiq.mockups::Canvas" x="928" y="47" w="16" h="15" measuredW="100" measuredH="70" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.25</backgroundAlpha>
+        <borderColor>0</borderColor>
+        <borderStyle>roundedSolid</borderStyle>
+        <color>0</color>
+      </controlProperties>
+    </control>
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::Canvas" x="949" y="47" w="16" h="15" measuredW="100" measuredH="70" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.25</backgroundAlpha>
+        <borderColor>10066329</borderColor>
+        <borderStyle>roundedSolid</borderStyle>
+        <color>10066329</color>
+      </controlProperties>
+    </control>
+    <control controlID="53" controlTypeID="com.balsamiq.mockups::Label" x="1002" y="40" w="-1" h="-1" measuredW="85" measuredH="17" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>10</size>
+        <text>CASTING%20COST</text>
+      </controlProperties>
+    </control>
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::HSlider" x="1002" y="62" w="85" h="-1" measuredW="33" measuredH="11" zOrder="13" locked="false" isInGroup="-1"/>
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::Label" x="24" y="33" w="-1" h="-1" measuredW="81" measuredH="25" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>16</size>
+        <text>New%20deck</text>
+        <underline>true</underline>
+      </controlProperties>
+    </control>
+    <control controlID="80" controlTypeID="__group__" x="769" y="141" w="375" h="217" measuredW="375" measuredH="217" zOrder="15" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="0" y="0" w="131" h="182" measuredW="77" measuredH="79" zOrder="0" locked="false" isInGroup="80">
+          <controlProperties>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="146" y="0" w="139" h="21" measuredW="135" measuredH="21" zOrder="1" locked="false" isInGroup="80">
+          <controlProperties>
+            <text>Fieldmist%20Borderpost</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="146" y="55" w="218" h="107" measuredW="1089" measuredH="18" zOrder="2" locked="false" isInGroup="80">
+          <controlProperties>
+            <size>11</size>
+            <text>You%20may%20pay%20%7B1%7D%20and%20return%20a%20basic%20land%20you%20control%20to%20its%20owner%27s%20hand%20rather%20than%20pay%20Fieldmist%20Borderpost%27s%20mana%20cost.%20Fieldmist%20Borderpost%20enters%20the%20battlefield%20tapped.%20%7BT%7D%3A%20Add%20%7BW%7D%20or%20%7BU%7D%20to%20your%20mana%20pool.</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Canvas" x="310" y="2" w="16" h="15" measuredW="100" measuredH="70" zOrder="3" locked="false" isInGroup="80">
+          <controlProperties>
+            <borderColor>10066329</borderColor>
+            <borderStyle>roundedSolid</borderStyle>
+            <color>10066329</color>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="312" y="1" w="12" h="17" measuredW="11" measuredH="18" zOrder="4" locked="false" isInGroup="80">
+          <controlProperties>
+            <color>16777215</color>
+            <size>11</size>
+            <text>1</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Canvas" x="328" y="2" w="16" h="15" measuredW="100" measuredH="70" zOrder="5" locked="false" isInGroup="80">
+          <controlProperties>
+            <borderColor>16770457</borderColor>
+            <borderStyle>roundedSolid</borderStyle>
+            <color>16770457</color>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Canvas" x="348" y="2" w="16" h="15" measuredW="100" measuredH="70" zOrder="6" locked="false" isInGroup="80">
+          <controlProperties>
+            <borderColor>2848996</borderColor>
+            <borderStyle>roundedSolid</borderStyle>
+            <color>2848996</color>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="146" y="29" w="57" h="21" measuredW="44" measuredH="18" zOrder="7" locked="false" isInGroup="80">
+          <controlProperties>
+            <color>6710886</color>
+            <size>11</size>
+            <text>Artifact</text>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Label" x="296" y="29" w="79" h="21" measuredW="73" measuredH="18" zOrder="8" locked="false" isInGroup="80">
+          <controlProperties>
+            <color>6710886</color>
+            <size>11</size>
+            <text>Alara%20Reborn</text>
+          </controlProperties>
+        </control>
+        <control controlID="9" controlTypeID="com.balsamiq.mockups::Button" x="0" y="189" w="131" h="28" measuredW="98" measuredH="28" zOrder="9" locked="false" isInGroup="80">
+          <controlProperties>
+            <color>16777215</color>
+            <text>Add%20to%20deck</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="81" controlTypeID="__group__" x="367" y="382" w="375" h="217" measuredW="375" measuredH="217" zOrder="16" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="0" y="0" w="131" h="182" measuredW="77" measuredH="79" zOrder="0" locked="false" isInGroup="81">
+          <controlProperties>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="146" y="0" w="139" h="21" measuredW="135" measuredH="21" zOrder="1" locked="false" isInGroup="81">
+          <controlProperties>
+            <text>Fieldmist%20Borderpost</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="146" y="55" w="218" h="107" measuredW="1089" measuredH="18" zOrder="2" locked="false" isInGroup="81">
+          <controlProperties>
+            <size>11</size>
+            <text>You%20may%20pay%20%7B1%7D%20and%20return%20a%20basic%20land%20you%20control%20to%20its%20owner%27s%20hand%20rather%20than%20pay%20Fieldmist%20Borderpost%27s%20mana%20cost.%20Fieldmist%20Borderpost%20enters%20the%20battlefield%20tapped.%20%7BT%7D%3A%20Add%20%7BW%7D%20or%20%7BU%7D%20to%20your%20mana%20pool.</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Canvas" x="310" y="2" w="16" h="15" measuredW="100" measuredH="70" zOrder="3" locked="false" isInGroup="81">
+          <controlProperties>
+            <borderColor>10066329</borderColor>
+            <borderStyle>roundedSolid</borderStyle>
+            <color>10066329</color>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="312" y="1" w="12" h="17" measuredW="11" measuredH="18" zOrder="4" locked="false" isInGroup="81">
+          <controlProperties>
+            <color>16777215</color>
+            <size>11</size>
+            <text>1</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Canvas" x="328" y="2" w="16" h="15" measuredW="100" measuredH="70" zOrder="5" locked="false" isInGroup="81">
+          <controlProperties>
+            <borderColor>16770457</borderColor>
+            <borderStyle>roundedSolid</borderStyle>
+            <color>16770457</color>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Canvas" x="348" y="2" w="16" h="15" measuredW="100" measuredH="70" zOrder="6" locked="false" isInGroup="81">
+          <controlProperties>
+            <borderColor>2848996</borderColor>
+            <borderStyle>roundedSolid</borderStyle>
+            <color>2848996</color>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="146" y="29" w="57" h="21" measuredW="44" measuredH="18" zOrder="7" locked="false" isInGroup="81">
+          <controlProperties>
+            <color>6710886</color>
+            <size>11</size>
+            <text>Artifact</text>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Label" x="296" y="29" w="79" h="21" measuredW="73" measuredH="18" zOrder="8" locked="false" isInGroup="81">
+          <controlProperties>
+            <color>6710886</color>
+            <size>11</size>
+            <text>Alara%20Reborn</text>
+          </controlProperties>
+        </control>
+        <control controlID="9" controlTypeID="com.balsamiq.mockups::Button" x="0" y="189" w="131" h="28" measuredW="98" measuredH="28" zOrder="9" locked="false" isInGroup="81">
+          <controlProperties>
+            <color>16777215</color>
+            <text>Add%20to%20deck</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="82" controlTypeID="__group__" x="769" y="382" w="375" h="217" measuredW="375" measuredH="217" zOrder="17" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="0" y="0" w="131" h="182" measuredW="77" measuredH="79" zOrder="0" locked="false" isInGroup="82">
+          <controlProperties>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="146" y="0" w="139" h="21" measuredW="135" measuredH="21" zOrder="1" locked="false" isInGroup="82">
+          <controlProperties>
+            <text>Fieldmist%20Borderpost</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="146" y="55" w="218" h="107" measuredW="1089" measuredH="18" zOrder="2" locked="false" isInGroup="82">
+          <controlProperties>
+            <size>11</size>
+            <text>You%20may%20pay%20%7B1%7D%20and%20return%20a%20basic%20land%20you%20control%20to%20its%20owner%27s%20hand%20rather%20than%20pay%20Fieldmist%20Borderpost%27s%20mana%20cost.%20Fieldmist%20Borderpost%20enters%20the%20battlefield%20tapped.%20%7BT%7D%3A%20Add%20%7BW%7D%20or%20%7BU%7D%20to%20your%20mana%20pool.</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Canvas" x="310" y="2" w="16" h="15" measuredW="100" measuredH="70" zOrder="3" locked="false" isInGroup="82">
+          <controlProperties>
+            <borderColor>10066329</borderColor>
+            <borderStyle>roundedSolid</borderStyle>
+            <color>10066329</color>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="312" y="1" w="12" h="17" measuredW="11" measuredH="18" zOrder="4" locked="false" isInGroup="82">
+          <controlProperties>
+            <color>16777215</color>
+            <size>11</size>
+            <text>1</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Canvas" x="328" y="2" w="16" h="15" measuredW="100" measuredH="70" zOrder="5" locked="false" isInGroup="82">
+          <controlProperties>
+            <borderColor>16770457</borderColor>
+            <borderStyle>roundedSolid</borderStyle>
+            <color>16770457</color>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Canvas" x="348" y="2" w="16" h="15" measuredW="100" measuredH="70" zOrder="6" locked="false" isInGroup="82">
+          <controlProperties>
+            <borderColor>2848996</borderColor>
+            <borderStyle>roundedSolid</borderStyle>
+            <color>2848996</color>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="146" y="29" w="57" h="21" measuredW="44" measuredH="18" zOrder="7" locked="false" isInGroup="82">
+          <controlProperties>
+            <color>6710886</color>
+            <size>11</size>
+            <text>Artifact</text>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Label" x="296" y="29" w="79" h="21" measuredW="73" measuredH="18" zOrder="8" locked="false" isInGroup="82">
+          <controlProperties>
+            <color>6710886</color>
+            <size>11</size>
+            <text>Alara%20Reborn</text>
+          </controlProperties>
+        </control>
+        <control controlID="9" controlTypeID="com.balsamiq.mockups::Button" x="0" y="189" w="131" h="28" measuredW="98" measuredH="28" zOrder="9" locked="false" isInGroup="82">
+          <controlProperties>
+            <color>16777215</color>
+            <text>Add%20to%20deck</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="85" controlTypeID="com.balsamiq.mockups::Canvas" x="24" y="183" w="287" h="126" measuredW="100" measuredH="70" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.25</backgroundAlpha>
+        <borderColor>13421772</borderColor>
+      </controlProperties>
+    </control>
+    <control controlID="86" controlTypeID="com.balsamiq.mockups::Icon" x="155" y="222" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13421772</color>
+        <icon>CellBarsIcon%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="87" controlTypeID="com.balsamiq.mockups::Label" x="24" y="161" w="-1" h="-1" measuredW="86" measuredH="22" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>14</size>
+        <text>Mana%20Curve</text>
+      </controlProperties>
+    </control>
+    <control controlID="103" controlTypeID="com.balsamiq.mockups::Canvas" x="24" y="348" w="287" h="126" measuredW="100" measuredH="70" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>13421772</borderColor>
+        <color>16777215</color>
+      </controlProperties>
+    </control>
+    <control controlID="104" controlTypeID="com.balsamiq.mockups::Label" x="24" y="326" w="-1" h="-1" measuredW="99" measuredH="22" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>14</size>
+        <text>Color%20Balance</text>
+      </controlProperties>
+    </control>
+    <control controlID="105" controlTypeID="com.balsamiq.mockups::Icon" x="144" y="381" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13421772</color>
+        <icon>GtCircledIcon%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="106" controlTypeID="com.balsamiq.mockups::Button" x="192" y="28" w="123" h="40" measuredW="107" measuredH="28" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>11</size>
+        <text>SAVE%20%26%20FINISH</text>
+      </controlProperties>
+    </control>
+    <control controlID="108" controlTypeID="com.balsamiq.mockups::Label" x="24" y="486" w="-1" h="-1" measuredW="95" measuredH="22" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>14</size>
+        <text>Starting%20Hand</text>
+      </controlProperties>
+    </control>
+    <control controlID="122" controlTypeID="com.balsamiq.mockups::Button" x="238" y="483" w="-1" h="-1" measuredW="74" measuredH="28" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13421772</color>
+        <size>11</size>
+        <text>REDRAW</text>
+      </controlProperties>
+    </control>
+    <control controlID="126" controlTypeID="com.balsamiq.mockups::ComboBox" x="1109" y="44" w="148" h="-1" measuredW="87" measuredH="62" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Sort%20by...%0AConverted%20mana%20cost%0AMost%20recent</text>
+      </controlProperties>
+    </control>
+    <control controlID="128" controlTypeID="com.balsamiq.mockups::Label" x="24" y="530" w="-1" h="-1" measuredW="150" measuredH="22" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>10066329</color>
+        <size>14</size>
+        <text>No%20cards%20in%20your%20deck</text>
+      </controlProperties>
+    </control>
+    <control controlID="131" controlTypeID="com.balsamiq.mockups::Label" x="24" y="84" w="-1" h="-1" measuredW="66" measuredH="22" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>0</color>
+        <size>14</size>
+        <text>0%20CARDS</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="132" controlTypeID="com.balsamiq.mockups::Label" x="24" y="119" w="-1" h="-1" measuredW="277" measuredH="20" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>10066329</color>
+        <size>12</size>
+        <text>Add%20cards%20by%20clicking%20%22Add%20to%20deck%22%20to%20the%20right</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="133" controlTypeID="com.balsamiq.mockups::StickyNote" x="567" y="67" w="765" h="72" measuredW="109" measuredH="123" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>If%20deck%20is%20empty%20it%20starts%20on%20Magic%202013%20+%20Creatures.%20Orderd%20by%20converted%20mana%20cost.</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
