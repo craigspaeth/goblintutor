@@ -1,8 +1,8 @@
 <mockup version="1.0" skin="sketch" measuredW="911" measuredH="50" mockupW="884" mockupH="45">
   <controls>
-    <control controlID="164" controlTypeID="com.balsamiq.mockups::Label" x="196" y="19" w="148" h="22" measuredW="138" measuredH="21" zOrder="0" locked="false" isInGroup="-1">
+    <control controlID="164" controlTypeID="com.balsamiq.mockups::Label" x="196" y="19" w="167" h="22" measuredW="161" measuredH="21" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>DECKS%20%28NEW%20DECK%29</text>
+        <text>DECKS%20%28CREATE%20DECK%29</text>
       </controlProperties>
     </control>
     <control controlID="170" controlTypeID="com.balsamiq.mockups::Label" x="108" y="19" w="88" h="22" measuredW="46" measuredH="21" zOrder="1" locked="false" isInGroup="-1">
@@ -10,7 +10,7 @@
         <text>HOME</text>
       </controlProperties>
     </control>
-    <control controlID="171" controlTypeID="com.balsamiq.mockups::Label" x="385" y="19" w="88" h="22" measuredW="66" measuredH="21" zOrder="2" locked="false" isInGroup="-1">
+    <control controlID="171" controlTypeID="com.balsamiq.mockups::Label" x="399" y="19" w="88" h="22" measuredW="66" measuredH="21" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
         <text>PROFILE</text>
       </controlProperties>

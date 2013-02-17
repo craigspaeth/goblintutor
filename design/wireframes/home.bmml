@@ -1,13 +1,13 @@
-<mockup version="1.0" skin="sketch" measuredW="864" measuredH="654" mockupW="836" mockupH="622">
+<mockup version="1.0" skin="sketch" measuredW="864" measuredH="712" mockupW="836" mockupH="688">
   <controls>
-    <control controlID="174" controlTypeID="com.balsamiq.mockups::Label" x="30" y="315" w="-1" h="-1" measuredW="140" measuredH="29" zOrder="0" locked="false" isInGroup="-1">
+    <control controlID="174" controlTypeID="com.balsamiq.mockups::Label" x="30" y="364" w="-1" h="-1" measuredW="140" measuredH="29" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>true</bold>
         <size>20</size>
         <text>Recent%20Decks</text>
       </controlProperties>
     </control>
-    <control controlID="176" controlTypeID="__group__" x="28" y="357" w="241" h="240" measuredW="241" measuredH="240" zOrder="1" locked="false" isInGroup="-1">
+    <control controlID="176" controlTypeID="__group__" x="28" y="415" w="241" h="240" measuredW="241" measuredH="240" zOrder="1" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
         <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="30" y="56" w="94" h="141" measuredW="77" measuredH="79" zOrder="0" locked="false" isInGroup="176">
           <controlProperties>
@@ -84,7 +84,7 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="178" controlTypeID="__group__" x="326" y="357" w="241" h="240" measuredW="241" measuredH="240" zOrder="2" locked="false" isInGroup="-1">
+    <control controlID="178" controlTypeID="__group__" x="326" y="415" w="241" h="240" measuredW="241" measuredH="240" zOrder="2" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
         <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="30" y="56" w="94" h="141" measuredW="77" measuredH="79" zOrder="0" locked="false" isInGroup="178">
           <controlProperties>
@@ -161,7 +161,7 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="179" controlTypeID="__group__" x="623" y="357" w="241" h="240" measuredW="241" measuredH="240" zOrder="3" locked="false" isInGroup="-1">
+    <control controlID="179" controlTypeID="__group__" x="623" y="415" w="241" h="240" measuredW="241" measuredH="240" zOrder="3" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
         <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="30" y="56" w="94" h="141" measuredW="77" measuredH="79" zOrder="0" locked="false" isInGroup="179">
           <controlProperties>
@@ -238,21 +238,21 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="180" controlTypeID="com.balsamiq.mockups::Label" x="30" y="32" w="-1" h="-1" measuredW="123" measuredH="29" zOrder="4" locked="false" isInGroup="-1">
+    <control controlID="180" controlTypeID="com.balsamiq.mockups::Label" x="410" y="24" w="123" h="29" measuredW="123" measuredH="29" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>true</bold>
         <size>20</size>
         <text>Golbin%20Tutor</text>
       </controlProperties>
     </control>
-    <control controlID="181" controlTypeID="com.balsamiq.mockups::Label" x="439" y="76" w="414" h="98" measuredW="1755" measuredH="22" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="181" controlTypeID="com.balsamiq.mockups::Label" x="580" y="76" w="273" h="138" measuredW="899" measuredH="33" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>false</bold>
-        <size>14</size>
-        <text>Sapiente%20quinoa%20biodiesel%20hoodie%20terry%20richardson.%20Neutra%20squid%20vice%2C%20freegan%20master%20cleanse%20shoreditch%20leggings%20portland.%20Banh%20mi%20fap%20exercitation%2C%20narwhal%20gastropub%20ennui%20+1%20gluten-free%20meggings.%20Post-ironic%20echo%20park%20tempor%2C%20nulla%20consequat%20pork%20belly%20blog%20besp</text>
+        <size>24</size>
+        <text>The%20easiest%20way%20to%20build%2C%20test%2C%20and%20share%20decks%20online%20for%20Magic%20The%20Gathering.</text>
       </controlProperties>
     </control>
-    <control controlID="182" controlTypeID="com.balsamiq.mockups::Label" x="399" y="629" w="-1" h="-1" measuredW="93" measuredH="25" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="182" controlTypeID="com.balsamiq.mockups::Label" x="399" y="687" w="-1" h="-1" measuredW="93" measuredH="25" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>true</bold>
         <size>16</size>
@@ -260,19 +260,17 @@
         <underline>true</underline>
       </controlProperties>
     </control>
-    <control controlID="183" controlTypeID="com.balsamiq.mockups::HRule" x="35" y="638" w="327" h="-1" measuredW="100" measuredH="5" zOrder="7" locked="false" isInGroup="-1"/>
-    <control controlID="184" controlTypeID="com.balsamiq.mockups::HRule" x="519" y="638" w="339" h="-1" measuredW="100" measuredH="5" zOrder="8" locked="false" isInGroup="-1"/>
-    <control controlID="185" controlTypeID="com.balsamiq.mockups::Label" x="439" y="242" w="251" h="29" measuredW="124" measuredH="29" zOrder="9" locked="false" isInGroup="-1">
-      <controlProperties>
-        <bold>true</bold>
-        <size>20</size>
-        <text>Build%20a%20deck</text>
-        <underline>true</underline>
-      </controlProperties>
-    </control>
-    <control controlID="187" controlTypeID="com.balsamiq.mockups::Image" x="32" y="77" w="392" h="194" measuredW="77" measuredH="79" zOrder="10" locked="false" isInGroup="-1">
+    <control controlID="183" controlTypeID="com.balsamiq.mockups::HRule" x="35" y="696" w="327" h="-1" measuredW="100" measuredH="5" zOrder="7" locked="false" isInGroup="-1"/>
+    <control controlID="184" controlTypeID="com.balsamiq.mockups::HRule" x="519" y="696" w="339" h="-1" measuredW="100" measuredH="5" zOrder="8" locked="false" isInGroup="-1"/>
+    <control controlID="187" controlTypeID="com.balsamiq.mockups::Image" x="32" y="77" w="527" h="252" measuredW="77" measuredH="79" zOrder="9" locked="false" isInGroup="-1">
       <controlProperties>
         <text/>
+      </controlProperties>
+    </control>
+    <control controlID="188" controlTypeID="com.balsamiq.mockups::Button" x="578" y="237" w="286" h="92" measuredW="198" measuredH="35" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>24</size>
+        <text>BUILD%20A%20DECK</text>
       </controlProperties>
     </control>
   </controls>
